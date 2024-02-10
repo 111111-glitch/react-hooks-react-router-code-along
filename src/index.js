@@ -1,16 +1,57 @@
 import React from "react";
+
 import ReactDOM from "react-dom";
 
-function Home() {
-  return (
-    <div>
-      <h1>Home!</h1>
-    </div>
-  );
-}
+import App from "./App";
 
-function App() {
-  return <Home />;
-}
+// Step 1. Import react-router functions
 
-ReactDOM.render(<App />, document.getElementById("root"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Step 2. Change so router is coordinating what is displayed
+
+ReactDOM.render(
+
+  <App />,
+
+  document.getElementById("root")
+
+);
